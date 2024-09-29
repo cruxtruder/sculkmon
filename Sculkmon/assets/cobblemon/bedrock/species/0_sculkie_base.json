@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:sculkie",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sculkie",
+      "model": "cobblemon:sculkie.geo",
+      "texture": "cobblemon:textures/pokemon/sculkie/sculkie.png",
+	  "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/sculkie/sculkie_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+	{
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/sculkie/sculkies.png",
+	  "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/sculkie/sculkies_emissive.png",
+              "translucent": true
+        }
+      ]
+	}
+  ]
+}

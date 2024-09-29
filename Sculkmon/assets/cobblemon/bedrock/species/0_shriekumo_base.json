@@ -1,0 +1,74 @@
+{
+  "species": "cobblemon:shriekumo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:shriekumo",
+      "model": "cobblemon:shriekumo.geo",
+      "texture": "cobblemon:textures/pokemon/shriekumo/shriekumo.png",
+      "layers": [
+        {
+          "name": "animation",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_top1.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_top2.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_top3.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_top4.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_top5.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_top6.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_top7.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_top8.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_top9.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_top10.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+		  "emissive": true
+        },
+		{
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/shriekumo/shriekumo_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+	{
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/shriekumo/shriekumos.png",
+     "layers": [
+        {
+          "name": "animation",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_tops1.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_tops2.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_tops3.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_tops4.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_tops5.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_tops6.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_tops7.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_tops8.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_tops9.png",
+              "cobblemon:textures/pokemon/shriekumo/animation/sculk_shrieker_inner_tops10.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+		  "emissive": true
+        },
+		{
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/shriekumo/shriekumos_emissive.png",
+              "translucent": true
+        }
+      ]
+   }
+ ]
+}

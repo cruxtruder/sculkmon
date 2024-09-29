@@ -1,0 +1,155 @@
+{
+    "implemented": true,
+    "name": "shriekumo",
+    "nationalPokedexNumber": 2951,
+    "primaryType": "poison",
+    "secondaryType": "psychic",
+    "abilities": [
+        "frisk",
+		"anticipation",
+        "h:hustle"
+    ],
+    "baseStats": {
+        "hp": 60,
+        "attack": 80,
+        "defence": 40,
+        "special_attack": 110,
+        "special_defence": 50,
+        "speed": 80
+    },
+    "catchRate": 45,
+    "maleRatio": -1,
+    "shoulderMountable": false,
+    "baseExperienceYield": 172,
+    "experienceGroup": "slow",
+    "eggCycles": 60,
+    "eggGroups": [
+            "monster",
+        "bug"
+    ],
+    "behaviour": {
+        "moving": {
+            "canLook": false
+        }
+    },
+    "drops": {
+        "amount": "3",
+        "entries": [
+            {
+                "item": "minecraft:sculk_vein",
+                "quantityRange": "1-2",
+                "percentage": 50 
+            },
+            {
+                "item": "minecraft:sculk_shrieker"
+            }
+        ]
+    },
+    "moves": [
+        "1:poisonsting",
+        "1:absorb",
+        "6:supersonic",
+        "10:infestation",
+        "14:hypnosis",
+        "17:poisonfang",
+        "20:echoedvoice",
+        "25:psychicnoise",
+        "27:screech",
+        "30:uproar",
+        "33:leechlife",
+        "35:psychicterrain",
+        "38:extrasensory",
+        "42:sludgewave",
+        "47:bugbuzz",
+        "50:lunge",
+        "52:shadowsneak",
+        "55:hypervoice",
+        "60:synchronoise",
+        "egg:boomburst",
+        "egg:megadrain",
+        "egg:stickyweb",
+        "tm:rest",
+        "tm:thief",
+        "tm:snore",
+        "tm:protect",
+        "tm:gigadrain",
+        "tm:facade",
+        "tm:venoshock",
+        "tm:round",
+        "tm:agility",
+        "tm:leechlife",
+        "tm:substitute",
+        "tm:sludgebomb",
+        "tm:endure",
+        "tm:sleeptalk",
+        "tm:crunch",
+        "tm:shadowball",
+        "tm:uproar",
+        "tm:taunt",
+        "tm:venomdrench",
+        "tm:zenheadbutt",
+        "tm:screech",
+        "tm:hypervoice",
+        "tm:psychic",
+        "tm:psyshock",
+        "tm:psychicterrain",
+        "tm:psychicnoise",
+        "tm:expandingforce",
+        "tm:dig",
+        "tm:psybeam",
+        "tm:bugbuzz",
+        "tm:snarl",
+        "tm:roar",
+        "tm:gigaimpact",
+        "tm:hyperbeam",
+        "tm:amnesia",
+        "tm:calmmind",
+        "tm:thunderwave",
+        "tm:psychicfangs",
+        "tm:strugglebug",
+        "tm:pounce",
+        "tm:lunge",
+        "tm:skittersmack",
+        "tm:darkpulse",
+        "tm:poisonjab",
+        "tutor:pursuit",
+        "tutor:detect",
+        "tutor:destinybond"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.shriekumo.desc1",
+        "cobblemon.species.shriekumo.desc2"
+    ],
+    "evolutions": [
+        {
+            "id": "shriekumo_echolossus_lvl",
+            "variant": "item_interact",
+            "result": "shriekumo",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 50
+        }
+          ],
+      "requiredContext": "minecraft:sculk_catalyst"
+    }
+    ],
+    "baseScale": 1.0,
+    "hitbox": {
+        "width": 1.0,
+        "height": 1.2,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 1,
+        "speed": 1
+    },
+    "height": 10,
+    "weight": 150
+}

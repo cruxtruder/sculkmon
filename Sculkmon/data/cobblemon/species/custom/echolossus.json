@@ -1,0 +1,157 @@
+{
+    "implemented": true,
+    "name": "echolossus",
+    "nationalPokedexNumber": 2952,
+    "primaryType": "poison",
+    "secondaryType": "rock",
+    "abilities": [
+        "reckless",
+		"anticipation",
+        "h:hustle"
+    ],
+    "baseStats": {
+        "hp": 85,
+        "attack": 115,
+        "defence": 115,
+        "special_attack": 50,
+        "special_defence": 80,
+        "speed": 80
+    },
+    "catchRate": 10,
+    "maleRatio": -1,
+    "shoulderMountable": false,
+    "baseExperienceYield": 300,
+    "experienceGroup": "erratic",
+    "eggCycles": 60,
+    "eggGroups": [
+            "monster",
+        "bug"
+    ],
+    "behaviour": {
+        "moving": {
+            "canLook": true
+        }
+    },
+    "drops": {
+        "amount": "3",
+        "entries": [
+            {
+                "item": "minecraft:sculk_vein",
+                "quantityRange": "1-2",
+                "percentage": 50 
+            },
+            {
+                "item": "minecraft:sculk_catalyst"
+            }
+        ]
+    },
+    "moves": [
+        "1:poisonsting",
+        "1:absorb",
+        "6:supersonic",
+        "10:infestation",
+        "14:hypnosis",
+        "17:poisonfang",
+        "20:echoedvoice",
+        "25:psychicnoise",
+        "27:screech",
+        "30:uproar",
+        "33:leechlife",
+        "35:psychicterrain",
+        "38:extrasensory",
+        "42:sludgewave",
+        "45:doubleedge",
+        "47:stoneedge",
+        "49:gunkshot",
+        "53:zenheadbutt",
+        "55:stompingtantrum",
+        "59:hypervoice",
+        "64:headsmash",
+        "68:synchronoise",
+        "tm:rest",
+        "tm:thief",
+        "tm:snore",
+        "tm:protect",
+        "tm:gigadrain",
+        "tm:facade",
+        "tm:venoshock",
+        "tm:round",
+        "tm:agility",
+        "tm:leechlife",
+        "tm:substitute",
+        "tm:sludgebomb",
+        "tm:endure",
+        "tm:sleeptalk",
+        "tm:crunch",
+        "tm:shadowball",
+        "tm:uproar",
+        "tm:taunt",
+        "tm:venomdrench",
+        "tm:zenheadbutt",
+        "tm:screech",
+        "tm:hypervoice",
+        "tm:psychic",
+        "tm:psyshock",
+        "tm:psychicterrain",
+        "tm:psychicnoise",
+        "tm:expandingforce",
+        "tm:dig",
+        "tm:psybeam",
+        "tm:bugbuzz",
+        "tm:snarl",
+        "tm:roar",
+        "tm:gigaimpact",
+        "tm:hyperbeam",
+        "tm:amnesia",
+        "tm:calmmind",
+        "tm:thunderwave",
+        "tm:psychicfangs",
+        "tm:strugglebug",
+        "tm:pounce",
+        "tm:lunge",
+        "tm:skittersmack",
+        "tm:darkpulse",
+        "tm:poisonjab",
+        "tm:rockslide",
+        "tm:scaryface",
+        "tm:rocktomb",
+        "tm:revenge",
+        "tm:payback",
+        "tm:retaliate",
+        "tm:bulldoze",
+        "tm:stompingtantrum",
+        "tm:earthquake",
+        "tm:outrage",
+        "tm:stoneedge",
+        "tm:highhorsepower",
+        "tm:rockblast",
+        "tm:smackdown",
+        "tutor:pursuit",
+        "tutor:detect",
+        "tutor:destinybond",
+        "egg:boomburst",
+        "egg:megadrain",
+        "egg:stickyweb"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.echolossus.desc1",
+        "cobblemon.species.echolossus.desc2"
+    ],
+    "evolutions": [],
+    "baseScale": 2,
+    "hitbox": {
+        "width": 2.3,
+        "height": 2,
+        "fixed": false
+    },
+    "baseFriendship": 0,
+    "evYield": {
+        "attack": 1,
+        "defence": 2
+    },
+    "height": 35,
+    "weight": 1508
+}
